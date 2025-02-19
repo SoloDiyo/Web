@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Math Tutor</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+            color: #333;
+        }
+        .header {
+            background-color: #0073e6;
+            color: white;
+            padding: 20px;
+            text-align: center;
+            font-size: 24px;
+            font-weight: bold;
+        }
+        .hero {
+            background: url('math-background.jpg') no-repeat center center/cover;
+            color: black;
+            text-align: center;
+            padding: 100px 20px;
+        }
+        .hero h1 {
+            font-size: 48px;
+            margin: 0;
+        }
+        .about, .contact, .get-started {
+            padding: 40px;
+            text-align: center;
+        }
+        .contact, .get-started {
+            background-color: #0073e6;
+            color: white;
+        }
+        .btn {
+            display: inline-block;
+            padding: 10px 20px;
+            margin-top: 20px;
+            background: white;
+            color: #0073e6;
+            text-decoration: none;
+            border-radius: 5px;
+            font-weight: bold;
+        }
+        .form-container {
+            max-width: 500px;
+            margin: 0 auto;
+            padding: 20px;
+            background: white;
+            border-radius: 5px;
+        }
+        .form-container input, .form-container textarea {
+            width: 100%;
+            padding: 10px;
+            margin: 10px 0;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+        }
+        .form-container button {
+            background: #0073e6;
+            color: white;
+            padding: 10px;
+            border: none;
+            cursor: pointer;
+            width: 100%;
+            border-radius: 5px;
+        }
+    </style>
+</head>
+<body>
+    <div class="header">Math Tutor - Learn with Confidence</div>
+
+    <div class="hero">
+        <h1>Master Math with Expert Guidance</h1>
+        <p>One-on-One Tutoring to Help You Excel</p>
+        <a href="#get-started" class="btn">Get Started</a>
+    </div>
+
+    <div class="about">
+        <h2>About Us</h2>
+        <p>We provide personalized math tutoring for students of all levels. Our experienced tutors make learning math easy and enjoyable.</p>
+    </div>
+
+    <div class="get-started" id="get-started">
+        <h2>Get Started</h2>
+        <p>Sign up for a personalized math tutoring session today.</p>
+        <div class="form-container">
+            <form>
+                <input type="text" name="name" placeholder="Your Name" required>
+                <input type="email" name="email" placeholder="Your Email" required>
+                <input type="text" name="grade" placeholder="Your Grade Level" required>
+                <textarea name="goals" placeholder="Your Learning Goals" rows="4" required></textarea>
+                <button type="submit">Get Started</button>
+            </form>
+        </div>
+    </div>
+</body>
+</html>
